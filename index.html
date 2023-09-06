@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio To-do List Jose Luque</title>
+    <!--HOJA DE ESTILO-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- CONTENERDOR DE LA APP -->
+    <div class="containerPrincipal">
+      <h1>To-do List</h1>
+      <hr />
+      <div class="newTask">
+        <p class="title">Nueva Tarea</p>
+        <input
+          id="newTask"
+          maxlength="70"
+          type="text"
+          autofocus
+          placeholder="Escribe tu tarea aquí..."
+        />
+        <button id="aggTask" class="btn-1">Aregar</button>
+      </div>
+      <div class="list-container">
+        <div class="statistics">
+          <ul id="statistics"></ul>
+          <ul id="statistics1"></ul>
+        </div>
+        <div class="container-taskList">
+          <table id="tableList">
+            <tr>
+              <th>ID</th>
+              <th>Tarea</th>
+              <th></th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPT PRINCIAPL -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
