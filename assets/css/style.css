@@ -81,3 +81,7 @@ label [type="checkbox"] {
     border: none;
     cursor: pointer;
 }
+.taskColor {
+    color: green;
+    text-decoration: line-through;
+}

@@ -43,7 +43,9 @@ function renderList() {
                     <p>${task.ID}</p>
                 </td>
                 <td>
-                    <p class="task">${task.description}</p>
+                    <p ${task.completed 
+                        ? 'class="taskColor"' 
+                        : ''}>${task.description}</p>
                 </td>
                 <td>
                     <label for="checkbox${task.ID}">
